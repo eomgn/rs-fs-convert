@@ -56,10 +56,6 @@ function convertCurrency(amount, price, symbol) {
     // 2-exibindo o resultado total formatado com o R$ padrão ----- uma outra opção
     // result.textContent = `${formatCurrencyBRL(total)}`;
 
-    // verifica se o resultado não é um número
-    if (isNaN(total)) {
-      alert("Insira um valor corretament para converter.");
-    }
 
     result.textContent = `${total} Reais`;
 
